@@ -1,0 +1,40 @@
+/*header*/
+			header{height: 3.7rem;}
+			.header-main{
+				padding:0.8rem;
+				width: 100%;
+				background-color:#ff7300;
+				height: 3.7rem;
+				color: #FFFFFF;
+			}
+			.header-main .go-back{
+				width:20%;
+				height: 1.5rem;
+				display: inline-block;
+				float: left;
+				background: url(../images/header-history.png) no-repeat left center;
+				background-size: contain;
+				margin-top: 0.3rem;
+			}
+			.header-main .title{height: 2.1rem;line-height: 2.1rem;width: 60%;text-align: center;font-size:1.167rem;display: inline-block;float: left;}
+			.header-main .tip{width: 20%;text-align: right;float: right;display: inline-block;height: 2.1rem;line-height: 2.1rem;font-size: 1rem;}
+			
+			/*login-main*/
+			.login-main ul li{padding: 1.2rem 1rem;border-bottom: 1px solid #E9E9E9;}
+			.login-main ul li:last-child{border-bottom: 1px solid #d7d7d7;}
+			.icon{width: 10%;display: inline-block;height: 1.5rem;float: left;}
+			.user-icon{background: url(../images/user-icon.png) no-repeat scroll center center;background-size: contain;}
+			.password-icon{background: url(../images/password-icon.png) no-repeat scroll center center;background-size: contain;}
+			.yzm-icon{background: url(../images/yzm-icon.png) no-repeat scroll center center;background-size: contain;}
+			.user-input,.password-input{width: 90%;float: left;}
+			.user-input input,.password-input input,.yzm-input input{width: 100%;border: 0;height: 1.5rem;line-height: 1.5rem;}
+			
+			.yzm-input{width: 42%;float: left;}
+			.reset-yzm{width: 48%;float: right;height: 1.5rem;}
+			.yzm-img{height: 2.5rem;float: left;display: inline-block;padding-left: 5%;margin-top: -0.5rem;border-left: 2px solid #E9E9E9;width: 70%;}
+			.yzm-img img{height: 2.5rem;display:block;width: 100%;}
+			.reset-img{height: 1.3rem;}
+			.reset-img img{float: left; display: inline-block;padding-left: 5%;height: 1.3rem;}
+			.login-msg{padding: 1rem 1rem;font-size: 1rem;}
+			.login-msg .forget-p{color: #FF7300;}
+			.login-submit button{height: 3rem;width: 100%;background-color: #FF7300;color: #FFFFFF;border: 0;border-radius: 5px;}

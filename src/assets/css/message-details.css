@@ -1,0 +1,23 @@
+	/*header*/
+			header{height: 3.7rem;}
+			.header-main{
+				padding:0.8rem;
+				width: 100%;
+				background-color:#ff7300;
+				height: 3.7rem;
+				color: #FFFFFF;
+			}
+			.header-main .go-back{
+				width:20%;
+				height: 1.5rem;
+				display: inline-block;
+				float: left;
+				background: url(../images/header-history.png) no-repeat left center;
+				background-size: contain;
+				margin-top: 0.3rem;
+			}
+			.header-main .title{height: 2.1rem;line-height: 2.1rem;width: 60%;text-align: center;font-size:1.167rem;display: inline-block;float: left;}
+			.header-main .tip{width: 20%;text-align: right;float: right;display: inline-block;height: 2.1rem;line-height: 2.1rem;font-size: 1rem;}
+			/*main*/
+			.message-mian p{padding:1rem;font-size: 1.27rem;color: #333333;}
+			

@@ -1,0 +1,60 @@
+			/*header*/
+			header{height: 3.7rem;}
+			.header-main{
+				padding:0.8rem;
+				width: 100%;
+				background-color:#ff7300;
+				height: 3.7rem;
+			}
+			.go-back{background: url("../images/header-history.png") no-repeat center center;background-size: contain;width:12%; height:1.875rem;float:left;display: inline-block;}
+			.header-search{height: 100%;margin: 0 0.8rem;width: 15.625rem;border-radius:1rem;border:1px solid #FFFFFF;background-color: #FFFFFF;display: inline-block; width: 68%;}
+			.header-search input{border: 0;background-color: transparent;padding-left: 2rem;font-size: 1.2rem;line-height: 2.1rem;}
+			.search-icon{background: url("../images/search-icon.png") no-repeat center center;background-size: contain;height: 1.67rem;width: 1.67rem;top: 0.2rem;left: 0.6rem;}
+			.header-login{font-size: 1rem;float: right;color: #FFFFFF;height: 2.75rem;width: 12%;text-align: right;margin-top: -0.5rem;}
+			.header-login .productd{background: url(../images/user-icon.png) top center no-repeat;display: inline-block;background-size: contain;width: 100%;height:1.4rem;}
+			.header-login span{font-size: 1rem;height:1.1rem;line-height:1.1rem;display: block;margin-top: -0.3rem;}
+			/*导航*/
+			.product-list-submenu{width: 100%;background-color:#FFFFFF;}
+			.product-list-submenu span{width: 25%;height: 3.33rem;/*padding:1rem 0;*/line-height: 3.33rem;font-size: 1.167rem;display: inline-block;text-align: center;float: left;}
+			.product-list-submenu span.active a{border-bottom: 3px solid #ff6600;color:#ff6600;   height: 100%;padding: 0 0.5rem;}
+			.product-list-submenu span a{display:inline-block;}
+			/*筛选状态*/
+			.product-list-submenu span a span.screen-state{display: inline-block;float: right;height: 1.1rem;width:1.155rem;margin-top: 1.155rem;background: url(../images/screen-icondefault.png) no-repeat  center center;background-size: contain;}
+			.product-list-submenu span a span.screen-state-down{background-image: url(../images/screen-icondown.png);}
+			.product-list-submenu span a span.screen-state-up{background-image: url(../images/screen-iconup.png);}
+			.product-list-submenu span.screen-btn{border-left:1px solid #E9E9E9;height: 1.33rem;line-height:1.33rem;margin:1rem 0;padding: 0;}			
+			.product-list-submenu span i.screen{width: 1.375rem;height:1.375rem;background: url(../images/purchase-screenpng.png) no-repeat top left;background-size: contain;display: inline-block;vertical-align: text-bottom;margin-right: 0.3rem;}
+			.product-list-submenu span i.screen-opt{background-image: url(../images/purchase-screenpng-opt.png);}
+			/*列表*/
+			.product-list-item ul li{padding: 1rem 1rem 1rem 0;border-bottom: 1px solid #E9E9E9;background-color: #FFFFFF;}
+			.product-list-item ul li .product-img{height: 5rem;width: 5rem;display: block;float: left;margin: 0 0.5rem;}
+			.product-list-item ul li .product-img img{display: block;width: 100%;}
+			.product-list-item ul li .product-text{}
+			.product-list-item ul li .product-text h3{font-size: 1.25rem;height: 2rem;white-space: nowrap;text-overflow: ellipsis;overflow: hidden;display: block;}
+			.product-list-item ul li .product-text p:nth-child(2){color: #eb3100;font-size: 1rem;height: 1.5rem;line-height: 1.5rem;}
+			.product-list-item ul li .product-text p:nth-child(3){color: #999999;font-size: 1rem;height: 1.5rem;line-height: 1.5rem;}
+			
+			/*screen-cpm*/
+			.screen-cpm{width: 100%;max-width:640px;margin:0 auto;height: 100%;background-color: rgba(0,0,0,0.8);position: fixed;top: 0;z-index: 999;display: none;overflow: scroll;}
+			.screen-cpm .screen-cpm-box{width: 88%;float: right;background-color: #f5f5f5;height: 100%;}
+			.screen-cpm-box h2{font-size: 1.167rem;line-height:1.167rem;color:#333333;padding: 1rem;background-color:#FFFFFF;}
+			.screen-cpm-box h2 i{color: #999999;margin-right: 0.6rem;width:1.167rem;height:1.167rem;line-height:1.167rem;vertical-align: bottom;background: url(../images/colse-icon.png) no-repeat center center;background-size: contain;display: inline-block;}/**/
+			.screen-cpm-box .screen-cpm-content{padding: 1rem;background-color: #F5F5F5;padding-bottom: 4rem;}
+			.screen-cpm-box .screen-cpm-content .area{padding: 0.7rem 1rem;font-size: 1rem;line-height:1rem;background-color: #FFFFFF;border:1px solid #FFFFFF;border-radius: 5px;}
+			.screen-cpm-box .screen-cpm-content .area input{border: 0;font-size: 1rem;height: 1rem;line-height: 1rem;float: right;text-align: right;display: inline-block;padding-right: 0.5rem;text-indent: 0;}
+			.screen-cpm-content .texture h3{padding: 0.7rem 1rem;font-size: 1rem;line-height:1rem;height:2.4rem;background-color: #FFFFFF;}
+			.screen-cpm-box .screen-cpm-content .area span,.screen-cpm-content .texture h3 span{color:#999999;float: right;font-size: 1rem;line-height:1rem;display: inline-block;}
+			.screen-cpm-box .screen-cpm-content .area span i,.screen-cpm-content .texture h3 span i{font-size: 0.7rem;line-height:1rem;display: inline-block;margin-left: 0.6rem;}
+			.screen-cpm-box .screen-cpm-content .texture{margin-top: 1rem;background-color: #FFFFFF;border:1px solid #FFFFFF;border-radius: 5px;}
+			.screen-cpm-box .screen-cpm-content .texture ul{display: block;}
+			.screen-cpm-box .screen-cpm-content .texture ul li{padding: 0.7rem 1.875rem;background-color: #FFFFFF;font-size: 1rem;line-height: 1rem; }
+			.screen-cpm-box .screen-cpm-content .texture ul li.active{color: #ff6600;}
+			.screen-cpm-box .screen-cpm-content .texture ul li.active i{display: inline-block;}
+			.screen-cpm-box .screen-cpm-content .texture ul li i{float: right;display: none;}
+			.screen-cpm-box .screen-cpm-content .price-range{color: #333333;font-size: 1rem}
+			.screen-cpm-box .screen-cpm-content .price-range p{margin: 1rem 0;}
+			.screen-cpm-box .screen-cpm-content .price-range input{height: 2rem;width:35%;line-height: 2rem;font-size: 1rem;display: inline-block;float: left;border: 0;margin-right: 5%;border: 1px solid #F5F5F5;border-radius:10px;background-color: #FFFFFF;}
+			.screen-cpm-box .control-btn{position: fixed;bottom: 0;left: 12%;width:88%;height: 3.4rem;}
+			.screen-cpm-box .control-btn button{width: 50%;display: inline-block;float: left;padding:1.2rem 0;border: 0;font-size: 1rem;line-height: 1rem;height: 3.4rem;}
+			.screen-cpm-box .control-btn .empty-btn{background-color: #FFFFFF;color: #666666;}
+			.screen-cpm-box .control-btn .affirm-btn{background-color:#ff6600;color: #FFFFFF;}

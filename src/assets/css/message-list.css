@@ -1,0 +1,28 @@
+
+			/*header*/
+			header{height: 3.7rem;}
+			.header-main{
+				padding:0.8rem;
+				width: 100%;
+				background-color:#ff7300;
+				height: 3.7rem;
+				color: #FFFFFF;
+			}
+			.header-main .go-back{
+				width:20%;
+				height: 1.5rem;
+				display: inline-block;
+				float: left;
+				background: url(../images/header-history.png) no-repeat left center;
+				background-size: contain;
+				margin-top: 0.3rem;
+			}
+			.header-main .title{height: 2.1rem;line-height: 2.1rem;width: 60%;text-align: center;font-size:1.167rem;display: inline-block;float: left;}
+			.header-main .tip{width: 20%;text-align: right;float: right;display: inline-block;height: 2.1rem;line-height: 2.1rem;font-size: 1rem;}
+			/*main*/
+			.message-mian ul li{padding:1.167rem 1rem;border-bottom: 1px solid #CCCCCC;}
+			.message-mian ul li a{display: block;}
+			.message-mian ul li p{font-size: 1.167rem;color:#333333;}		
+			.message-mian ul li p span:first-child{width: 75%;display: inline-block;overflow: hidden;    white-space:nowrap;text-overflow:ellipsis;float: left;font-size: 1.1rem}	
+			.message-mian ul li p span:last-child{font-size: 1rem;color: #666666;width: 25%;display: inline-block;overflow: hidden;white-space:nowrap;text-overflow:ellipsis;float: left;text-align: right;}
+

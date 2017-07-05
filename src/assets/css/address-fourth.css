@@ -1,0 +1,40 @@
+
+			/*header*/
+			header{height: 3.7rem;}
+			.header-main{
+				padding:0.8rem;
+				width: 100%;
+				background-color:#ff7300;
+				height: 3.7rem;
+				color: #FFFFFF;
+			}
+			.header-main .go-back{
+				width:20%;
+				height: 1.5rem;
+				display: inline-block;
+				float: left;
+				background: url(../images/header-history.png) no-repeat left center;
+				background-size: contain;
+				margin-top: 0.3rem;
+			}
+			.header-main .title{height: 2.1rem;line-height: 2.1rem;width: 60%;text-align: center;font-size:1.167rem;display: inline-block;float: left;}
+			.header-main .tip{width: 20%;text-align: right;float: right;display: inline-block;height: 2.1rem;line-height: 2.1rem;font-size: 1rem;}
+			/*main*/
+			.address-main ul li{padding: 1rem 0;position: relative;}
+			.address-checkbox{display: none;}
+			.address-checkboxon{width: 6%;margin-right:2%;margin-top:2.5rem;float: left;display: block;}
+			.address-checkbox input[type="checkbox"]{width: 1.4rem;height:1.4rem;background-image: url(../images/radiobox.png); background-size: contain;outline: 0 !important;}
+			.address-checkbox input[type="checkbox"]:checked{background-image: url(../images/radiobox-checked.png);}
+			.address-content{width: 100%;float:left;padding: 1rem;border: 1px solid #E9E9E9;position: relative;border-radius: 5px;background-color: #FFFFFF;}
+			.address-contenton{width:92%;}
+			.address-content p:first-child{font-size: 1rem;height: 2rem; color: #666666;}
+			.address-content p:nth-child(2){font-size: 1rem;color: #999999;}
+			.address-content p:first-child span{float: right;}
+			.address-content p span.address-username{float: left;}
+			.address-main li.default .address-content{border-color: #ff7400;}
+			.address-main li .address-content>span{display: none;}
+			.address-main li.default .address-content>span{position: absolute;left: 0;top: 0;width: 2.2rem;display: block;}
+			.address-main li.default .address-content>span img{display: block;width: 100%;}
+			.address-bottom{background-color:#fde9d6;width: 100%;max-width:640px;position: fixed;bottom: 0;/*left:0;*/font-size: 1.25rem;line-height:1.25rem;text-align: center;padding:1rem 0;border:0;border-top: 1px solid #CCCCCC;color: #FFFFFF;height:3.3rem;display: block;}
+			
+

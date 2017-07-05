@@ -1,0 +1,14 @@
+
+			.tariff-list-mian{background-color: #FFFFFF;padding-bottom: 1rem;}
+			.tariff-list-head{height: 5rem;border-left:3px solid #ff6600;padding-left: 1rem;}			
+			.tariff-list-head h2{line-height: 3rem;height: 3rem;font-size:1rem;}
+			.tariff-list-head p{height: 2rem;font-size: 0.8rem;}
+			.tariff-list-head span{display: inline-block;margin-top: 3.5rem;font-size: 0.7rem;float: left;}
+			.tariff-list-head img{display: inline-block;height: 5rem;float: right;}
+			
+			.tariff-list-mian .tariff-content table{width: 100%;color: #333333;margin-top: 0.5rem;}
+			.tariff-list-mian .tariff-content table tr{height: 2.5rem;}
+			.tariff-list-mian .tariff-content table tr th{background-color:#eff7f0 !important;}
+			.tariff-list-mian .tariff-content table tr th,.tariff-list-mian table tr td{border: 1px solid #E9E9E9;text-align: center;color: #333333;font-size: 0.8rem;height: 2.5rem;font-weight: normal;background-color: #FFFFFF;}
+			.tariff-list-mian .tariff-content table tr .titel{width: 3.75rem;}
+			.tariff-list-mian .tariff-content table tr .meter{line-height: 1;}

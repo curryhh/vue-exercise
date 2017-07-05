@@ -1,0 +1,233 @@
+      [{
+      	"cgName": "镀锌电线套管",
+      	"cgParam": 699,
+      	"cgpath": ",0,178,674,699,706,",
+      	"createDate": "2016-06-20 13:52:54",
+      	"id": 706,
+      	"modifyDate": "2016-10-18 11:06:30",
+      	"orderby": 4,
+      	"pname": "电工套管系列"
+      	
+      }, {
+      	"cgCode": "gl_gs",
+      	"cgLevel": "4",
+      	"cgName": "PP双壁波纹管",
+      	"cgParam": 570,
+      	"cgpath": ",0,178,180,570,637,",
+      	"createDate": "2016-06-20 11:45:07",
+      	"id": 637,
+      	"modifyDate": "2016-08-05 16:25:04",
+      	"orderby": 1,
+      	"pname": "波纹管系列"
+      	
+      }, {
+      	"adminId": 1,
+      	"cgCode": "gl_ps",
+      	"cgLevel": "4",
+      	"cgName": "孔网钢带(PE)复合管",
+      	"cgParam": 568,
+      	"cgpath": ",0,178,179,568,665,",
+      	"createDate": "2016-06-20 11:49:18",
+      	"id": 665,
+      	"modifyDate": "2016-06-20 14:44:20",
+      	"orderby": 2,
+      	"pname": "复合给水系列"
+      	
+      }, {
+      	"adminId": 1,
+      	"cgCode": "gl_ps",
+      	"cgLevel": "4",
+      	"cgName": "钢骨架(PE)复合管",
+      	"cgParam": 568,
+      	"cgpath": ",0,178,179,568,663,",
+      	"createDate": "2016-06-20 11:49:02",
+      	"id": 663,
+      	"modifyDate": "2016-06-20 14:44:08",
+      	"orderby": 2,
+      	"pname": "复合给水系列"
+      	
+      }, {
+      	"adminId": 1,
+      	"cgCode": "gl_ps",
+      	"cgLevel": "4",
+      	"cgName": "钢丝网骨架(PE)复合管",
+      	"cgParam": 568,
+      	"cgpath": ",0,178,179,568,661,",
+      	"createDate": "2016-06-20 11:48:45",
+      	"id": 661,
+      	"modifyDate": "2016-06-20 14:43:33",
+      	"orderby": 2,
+      	"pname": "复合给水系列"
+      	
+      }, {
+      	"adminId": 1,
+      	"cgName": "PVC红蓝线管",
+      	"cgParam": 714,
+      	"cgpath": ",0,178,674,714,716,",
+      	"createDate": "2016-06-20 13:54:22",
+      	"id": 716,
+      	"modifyDate": "2016-06-20 13:54:22",
+      	"orderby": 4,
+      	"pname": "其他"
+      	
+      }, {
+      	"adminId": 1,
+      	"cgName": "PPR家装管",
+      	"cgParam": 714,
+      	"cgpath": ",0,178,674,714,715,",
+      	"createDate": "2016-06-20 13:54:13",
+      	"id": 715,
+      	"modifyDate": "2016-06-20 13:54:13",
+      	"orderby": 4,
+      	"pname": "其他"
+      	
+      }, {
+      	"adminId": 1,
+      	"cgName": "地暖管配件",
+      	"cgParam": 709,
+      	"cgpath": ",0,178,674,709,713,",
+      	"createDate": "2016-06-20 13:53:52",
+      	"id": 713,
+      	"modifyDate": "2016-06-20 13:53:52",
+      	"orderby": 4,
+      	"pname": "保温地暖管系列"
+      	
+      }, {
+      	"adminId": 1,
+      	"cgName": "地暖管",
+      	"cgParam": 709,
+      	"cgpath": ",0,178,674,709,712,",
+      	"createDate": "2016-06-20 13:53:46",
+      	"id": 712,
+      	"modifyDate": "2016-06-20 13:53:46",
+      	"orderby": 4,
+      	"pname": "保温地暖管系列"
+      	
+      }, {
+      	"adminId": 1,
+      	"cgName": "PPR保温管配件",
+      	"cgParam": 709,
+      	"cgpath": ",0,178,674,709,711,",
+      	"createDate": "2016-06-20 13:53:38",
+      	"id": 711,
+      	"modifyDate": "2016-06-20 13:53:38",
+      	"orderby": 4,
+      	"pname": "保温地暖管系列"
+      	
+      }, {
+      	"cgName": "镀锌电线套管",
+      	"cgParam": 699,
+      	"cgpath": ",0,178,674,699,706,",
+      	"createDate": "2016-06-20 13:52:54",
+      	"id": 706,
+      	"modifyDate": "2016-10-18 11:06:30",
+      	"orderby": 4,
+      	"pname": "电工套管系列"
+      	
+      }, {
+      	"cgCode": "gl_gs",
+      	"cgLevel": "4",
+      	"cgName": "PP双壁波纹管",
+      	"cgParam": 570,
+      	"cgpath": ",0,178,180,570,637,",
+      	"createDate": "2016-06-20 11:45:07",
+      	"id": 637,
+      	"modifyDate": "2016-08-05 16:25:04",
+      	"orderby": 1,
+      	"pname": "波纹管系列"
+      	
+      }, {
+      	"adminId": 1,
+      	"cgCode": "gl_ps",
+      	"cgLevel": "4",
+      	"cgName": "孔网钢带(PE)复合管",
+      	"cgParam": 568,
+      	"cgpath": ",0,178,179,568,665,",
+      	"createDate": "2016-06-20 11:49:18",
+      	"id": 665,
+      	"modifyDate": "2016-06-20 14:44:20",
+      	"orderby": 2,
+      	"pname": "复合给水系列"
+      	
+      }, {
+      	"adminId": 1,
+      	"cgCode": "gl_ps",
+      	"cgLevel": "4",
+      	"cgName": "钢骨架(PE)复合管",
+      	"cgParam": 568,
+      	"cgpath": ",0,178,179,568,663,",
+      	"createDate": "2016-06-20 11:49:02",
+      	"id": 663,
+      	"modifyDate": "2016-06-20 14:44:08",
+      	"orderby": 2,
+      	"pname": "复合给水系列"
+      	
+      }, {
+      	"adminId": 1,
+      	"cgCode": "gl_ps",
+      	"cgLevel": "4",
+      	"cgName": "钢丝网骨架(PE)复合管",
+      	"cgParam": 568,
+      	"cgpath": ",0,178,179,568,661,",
+      	"createDate": "2016-06-20 11:48:45",
+      	"id": 661,
+      	"modifyDate": "2016-06-20 14:43:33",
+      	"orderby": 2,
+      	"pname": "复合给水系列"
+      	
+      }, {
+      	"adminId": 1,
+      	"cgName": "PVC红蓝线管",
+      	"cgParam": 714,
+      	"cgpath": ",0,178,674,714,716,",
+      	"createDate": "2016-06-20 13:54:22",
+      	"id": 716,
+      	"modifyDate": "2016-06-20 13:54:22",
+      	"orderby": 4,
+      	"pname": "其他"
+      	
+      }, {
+      	"adminId": 1,
+      	"cgName": "PPR家装管",
+      	"cgParam": 714,
+      	"cgpath": ",0,178,674,714,715,",
+      	"createDate": "2016-06-20 13:54:13",
+      	"id": 715,
+      	"modifyDate": "2016-06-20 13:54:13",
+      	"orderby": 4,
+      	"pname": "其他"
+      	
+      }, {
+      	"adminId": 1,
+      	"cgName": "地暖管配件",
+      	"cgParam": 709,
+      	"cgpath": ",0,178,674,709,713,",
+      	"createDate": "2016-06-20 13:53:52",
+      	"id": 713,
+      	"modifyDate": "2016-06-20 13:53:52",
+      	"orderby": 4,
+      	"pname": "保温地暖管系列"
+      	
+      }, {
+      	"adminId": 1,
+      	"cgName": "地暖管",
+      	"cgParam": 709,
+      	"cgpath": ",0,178,674,709,712,",
+      	"createDate": "2016-06-20 13:53:46",
+      	"id": 712,
+      	"modifyDate": "2016-06-20 13:53:46",
+      	"orderby": 4,
+      	"pname": "保温地暖管系列"
+      	
+      }, {
+      	"adminId": 1,
+      	"cgName": "PPR保温管配件",
+      	"cgParam": 709,
+      	"cgpath": ",0,178,674,709,711,",
+      	"createDate": "2016-06-20 13:53:38",
+      	"id": 711,
+      	"modifyDate": "2016-06-20 13:53:38",
+      	"orderby": 4,
+      	"pname": "保温地暖管系列"
+      	
+      }]

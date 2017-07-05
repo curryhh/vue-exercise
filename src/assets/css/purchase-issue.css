@@ -1,0 +1,34 @@
+
+			/*header*/
+			header{height: 3.7rem;}
+			.header-main{
+				padding:0.8rem;
+				width: 100%;
+				background-color:#ff7300;
+				height: 3.7rem;
+				color: #FFFFFF;
+			}
+			.header-main .go-back{
+				width:20%;
+				height: 1.5rem;
+				display: inline-block;
+				float: left;
+				background: url(../images/header-history.png) no-repeat left center;
+				background-size: contain;
+				margin-top: 0.3rem;
+			}
+			.header-main .title{height: 2.1rem;line-height: 2.1rem;width: 60%;text-align: center;font-size:1.167rem;display: inline-block;float: left;}
+			.header-main .tip{width: 20%;text-align: right;float: right;display: inline-block;height: 2.1rem;line-height: 2.1rem;font-size: 1rem;}
+			/*main*/
+			.purchase-state{padding:1rem 2rem 1.7rem;background-color:#f2f2f2;}
+			.purchase-state img{display: block; width: 100%;}
+			.purchase-tip{text-align: center;color: #ff3a00;background-color:#fffbeb;font-size: 1rem;padding:0.6rem;border-bottom: 1px solid #E9E9E9;}
+			.purchase-content li{padding: 1rem 0.7rem;border-bottom: 1px solid #E9E9E9;font-size: 1.3rem;color: #999999;}
+			.purchase-content li span{width: 23%;display: inline-block;float: left;font-size: 1.2rem;}
+			.purchase-content li input{width: 74%;float: right;display: inline-block;border: 0;background-color: transparent;font-size: 1.2rem}
+			.purchase-content li#expressArea input{font-size: 1rem}
+			.purchase-content li.purchase-content-img .content-img-main{width: 74%;float: right;display: inline-block;border: 0;background-color: transparent;font-size: 1.2rem;position: relative;}
+			.purchase-content li.purchase-content-img .content-img-main button{background:url("../images/purchase-content-img.jpg") no-repeat;height: 4.5rem;width:4.5rem;display: block;float: left;background-size: contain;position: relative;border: 0;}
+			.purchase-content li.purchase-content-img .content-img-main input{opacity: 0;display: none;position: absolute;top: 0;left: 0;text-indent: 0;}
+			.purchase-button{width: 90%;height: 3rem;line-height:3rem;border: 1px solid #ff6600;background-color: #FF6600;border-radius:5px;margin:2.5rem 5% 2rem 5%;color: #FFFFFF;}
+

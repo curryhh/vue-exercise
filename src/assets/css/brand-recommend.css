@@ -1,0 +1,97 @@
+
+/*header*/
+header{height: 3.7rem;}
+.header-main{
+	padding:0.8rem;
+	width: 100%;
+	background-color:#ff7300;
+	height: 3.7rem;
+	color: #FFFFFF;
+}
+.header-main .go-back{
+	width:20%;
+	height: 1.5rem;
+	display: inline-block;
+	float: left;
+	background: url(../images/header-history.png) no-repeat left center;
+	background-size: contain;
+	margin-top: 0.3rem;
+}
+.header-main .title{height: 2.1rem;line-height: 2.1rem;width: 60%;text-align: center;font-size:1.167rem;display: inline-block;float: left;}
+.header-main .tip{width: 20%;text-align: right;float: right;display: inline-block;height: 2.1rem;line-height: 2.1rem;font-size: 1rem;}
+			/*main*/
+			.recommend-main{width: 100%;background-color: #fff;}
+			.recommend-main ul li{width: 100%;border-bottom: 1px solid #dedede;}
+			.recommend-main ul li{width:50%;float: left;background-color: #FFFFFF;padding:0 2%;border-right:1px solid #dedede;padding-bottom: 0.5rem;}
+			.recommend-main ul li:nth-child(2n){float: right;}
+			.recommend-main ul li div img{padding: 1rem 0;width: 75%;margin: 0 auto;display: block;}
+			.recommend-main ul li div p{}
+			.recommend-main ul li div p i{width: 23%;height: 2.9rem;line-height: 2.9rem;color: #333333;font-size: 1rem;display: inline-block;background-color:#dedede;float: left;font-style: normal;border-top-left-radius:5px;border-bottom-left-radius: 5px;text-align: center;}
+			.recommend-main ul li div p span{width: 77%;height: 2.9rem;line-height: 1.45rem;font-size: 0.9rem;color: #999999;background-color:#fafafa;display:inline-block;float: left;border-top-right-radius:5px;border-bottom-right-radius: 5px;display: -webkit-box;-webkit-box-orient: vertical;-webkit-line-clamp: 2;overflow: hidden;padding:0 0.5rem;}
+			
+		body{position: inherit;}
+			.iscroll-box{position:absolute;z-index:1;top:3.7rem;bottom:0px;/*left:0;*/width:100%;overflow:auto;}
+			.iscroll-box.z-index{ z-index:80; opacity:1;}
+			.iscroll-box .scroller{position:absolute; z-index:1;-webkit-tap-highlight-color:rgba(0,0,0,0);width:100%;padding:0;}
+			.iscroll-box div[data-pull]{ display:block;height:44px; line-height:44px; text-align:center;color:#666;}
+			.iscroll-box div[data-pull=up]:before{ content:"上拉加载更多数据";}
+			.iscroll-box div[data-pull=up].loading:before,.iscroll-box div[data-pull=up].flip:before{content:"正在拼命加载中...";}
+			.iscroll-box div[data-pull=up].end:before{ content:"已经加载所有数据";}
+			.iscroll-box div[data-pull=up].nodata:before{content:"暂无数据";}
+			.iscroll-box div[data-pull=down].loading:before,.iscroll-box div[data-pull=down].flip:before{content:"正在更新中...";}
+			/********************************************/
+			/**********         IScroll5样式         **********/
+			/********************************************/
+			#wrapper {
+			    position: absolute;
+			    z-index: 1;
+			    top: 0;
+			    left: 0;
+			    width: 100%;
+			    height: 100%;
+			    background: #f5f5f5;
+			    overflow: hidden;
+			}
+			
+			#wrapper-scroller {
+			    position: absolute;
+			    z-index: 1;
+			    /*-webkit-tap-highlight-color: rgba(0, 0, 0, 0);*/
+			    width: 100%;
+			    min-height: 100%;
+			    background: #f5f5f5;
+			    -webkit-transform: translateZ(0);
+			    -moz-transform: translateZ(0);
+			    -ms-transform: translateZ(0);
+			    -o-transform: translateZ(0);
+			    transform: translateZ(0);
+			    -webkit-touch-callout: none;
+			    -webkit-user-select: none;
+			    -moz-user-select: none;
+			    -ms-user-select: none;
+			    user-select: none;
+			    -webkit-text-size-adjust: none;
+			    -moz-text-size-adjust: none;
+			    -ms-text-size-adjust: none;
+			    -o-text-size-adjust: none;
+			    text-size-adjust: none;
+			}
+			
+			.iScrollVerticalScrollbar, .iScrollVerticalScrollbarV {
+			    position: absolute;
+			    z-index: 9999;
+			    bottom: 2px;
+			    top: 2px;
+			    right: 1px;
+			    overflow: hidden;
+			    transform: translateZ(0px);
+			    transition-duration: 500ms;
+			    opacity: 0;
+			    width: 3px !important;
+			}
+			
+			.iScrollVerticalScrollbarV > div,
+			.iScrollIndicator {
+			    border: 0 none !important;
+			    background: rgba(0, 0, 0, 0.2) !important;
+			}

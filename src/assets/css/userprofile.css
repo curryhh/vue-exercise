@@ -1,0 +1,29 @@
+
+			/*header*/
+			header{height: 3.7rem;}
+			.header-main{
+				padding:0.8rem;
+				width: 100%;
+				background-color:#ff7300;
+				height: 3.7rem;
+				color: #FFFFFF;
+			}
+			.header-main .go-back{
+				width:20%;
+				height: 1.5rem;
+				display: inline-block;
+				float: left;
+				background: url(../images/header-history.png) no-repeat left center;
+				background-size: contain;
+				margin-top: 0.3rem;
+			}
+			.header-main .title{height: 2.1rem;line-height: 2.1rem;width: 60%;text-align: center;font-size:1.167rem;display: inline-block;float: left;}
+			.header-main .tip{width: 20%;text-align: right;float: right;display: inline-block;height: 2.1rem;line-height: 2.1rem;font-size: 1rem;}
+			
+			/*user-main*/
+			
+			.user-main ul li{padding: 1.4rem 1rem;border-bottom: 1px solid #CCCCCC;font-size: 1rem;background-color: #FFFFFF;}
+			.user-main ul li span{width: 20%;float: left;height: 1.25rem;font-size: 1.2rem;}
+			.user-main ul li input{width: 80%;float: left;height: 1.25rem;font-size: 1rem;line-height: 1.25rem;border: 0;background-color: transparent;color: #333333;}
+			.user-main button{margin-top:4rem;padding:1rem 0;width: 100%;background-color: #FF7300;color: #FFFFFF;font-size: 1.4rem;display: inline-block;border: 0;border-radius:5px;}
+			.user-main .user-btn{padding:0 1rem;}

@@ -1,0 +1,28 @@
+
+			/*header*/
+			header{height: 3.7rem;}
+			.header-main{
+				padding:0.8rem;
+				width: 100%;
+				background-color:#ff7300;
+				height: 3.7rem;
+				color: #FFFFFF;
+			}
+			.header-main .go-back{
+				width:20%;
+				height: 1.5rem;
+				display: inline-block;
+				float: left;
+				background: url(../images/header-history.png) no-repeat left center;
+				background-size: contain;
+				margin-top: 0.3rem;
+			}
+			.header-main .title{height: 2.1rem;line-height: 2.1rem;width: 60%;text-align: center;font-size:1.167rem;display: inline-block;float: left;}
+			.header-main .tip{width: 20%;text-align: right;float: right;display: inline-block;height: 2.1rem;line-height: 2.1rem;font-size: 1rem;}
+			/*main*/
+			.bid-main table{width: 100%;border: 0;}
+			.bid-main table thead tr{background-color:#fafafa;height: 3rem;border-bottom: 1px solid #E9E9E9;}
+			.bid-main table thead th{width: 33.3%;float: left;height: 3rem;line-height: 3rem;font-size: 0.875rem;color: #999999;display: inline-block;text-align: center;border: 0;}
+			.bid-main table tbody tr{background-color:#FFFFFF;border-bottom: 1px solid #E9E9E9;height: 3.75rem;}
+			.bid-main table tbody td{width: 33.3%;float: left;height: 3.75rem;line-height: 3.75rem;font-size: 0.875rem;color: #333333;display: inline-block;text-align: center;border: 0;}
+

@@ -1,0 +1,62 @@
+
+			/*header*/
+			header{height: 3.7rem;}
+			.header-main{
+				padding:0.8rem;
+				width: 100%;
+				background-color:#ff7300;
+				height: 3.7rem;
+				color: #FFFFFF;
+			}
+			.header-main .go-back{
+				width:20%;
+				height: 1.5rem;
+				display: inline-block;
+				float: left;
+				background: url(../images/header-history.png) no-repeat left center;
+				background-size: contain;
+				margin-top: 0.3rem;
+			}
+			.header-main .title{height: 2.1rem;line-height: 2.1rem;width: 60%;text-align: center;font-size:1.167rem;display: inline-block;float: left;}
+			.header-main .tip{width: 20%;text-align: right;float: right;display: inline-block;height: 2.1rem;line-height: 2.1rem;font-size: 1rem;}			
+			/*main*/	
+			.answer-main{background-color: #FDFDFD;}	
+			.answer-main .answer-box{padding:0 1rem;}
+			.answer-main h2{padding:1.4rem 1rem;color: #333333;font-size: 1rem;}
+			.answer-user{height: 2.7rem;}
+			.answer-user .user-img{float: left;height: 2.7rem;width:2.7rem;margin-right:0.7rem;font-size: 1rem;color: #ff7300;}
+			.answer-user .user-img img{height: 100%;display: inline-block;}
+			.answer-user p:first-child{vertical-align: text-top;}
+			.answer-user p:last-child{vertical-align: text-bottom;color: #999999;}
+			.answer-user p{font-size: 1rem;margin-right: 0.3rem;color: #4987e5;}
+			.answer-user p span{float: right;color:#999999 ;}
+			.answer-content p{padding: 2rem 1rem;font-size: 1rem; color:#333333;border-bottom: 1px solid #CCCCCC;}
+			.answer-main textarea{height: 5rem;font-size:1rem;line-height:2rem;width: 100%;border: 1px solid #CCCCCC;border-radius: 5px;margin:1rem 0;padding:0 0.5rem;display: block;color: #999999;}
+			.answer-main button{margin: 0.7rem 0 1.5rem;padding: 0.6rem 0.8rem;color: #FFFFFF;background-color: #FF7300;text-align: center;font-size:1rem;display: block;border: 0;}
+			.discuss-list>p{width: 100%;padding: 1rem;border-bottom: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;background-color: #FFFFFF;height: 3.25rem;}
+			.discuss-list>p>span{border-bottom: 2px solid #FF7300;color: #FF7300;position: absolute;left: 0;bottom: -1px;padding: 0 1rem;display: inline-block;padding-bottom: 0.5rem;}
+			.discuss-list ul li{padding: 1rem;border-bottom: 1px solid #CCCCCC;/*height: 5rem;*/}
+			.discuss-list ul li .discuss-img{height: 3rem;float: left;width:3rem;margin-right:0.7rem;}
+			.discuss-list ul li .discuss-img img{height: 3rem;display: inline-block;}
+			.discuss-list ul li{}
+			.discuss-list ul li p{vertical-align: text-top;color: #666666;}
+			.discuss-list ul li p:nth-child(3){vertical-align: text-bottom;color: #333333;}
+			.discuss-list ul li p{font-size: 1rem;margin-right: 0.3rem;line-height: 1.7rem;}
+			.discuss-list ul li p span{float: right;color:#999999;}
+			/*追答*/
+			.trace{margin-left: 3.7rem;}
+			.trace button{float: right;background: #FFFFFF;color: #999999;border: 1px  solid #CCCCCC;border-radius:5px;padding: 0.2rem 0.8rem;margin-bottom: 0;font-size: 0.9rem}
+			.closely{padding: 1rem;border: 1px solid #CCCCCC;margin-top: 1rem;}
+			.closely textarea{background-color: #F3F2F1;margin: 0;height: 4rem;}
+			.closely button{color: #FFFFFF;border: 0; background-color: #FF7300;padding: 0.3rem 1rem;font-size: 0.8rem;border-radius: 0;}
+			.arrow{ position:absolute; width:1rem; height:1.1rem; top: -1.11rem;
+				right: 10%;transform: rotate(180deg);}
+			.arrow *{ display:block; border-width:0.5rem; position:absolute; border-style:solid dashed dashed dashed; font-size:0; line-height:0; }
+			.arrow em{border-color:#ccc transparent transparent;}
+			.arrow span{border-color:#FFF transparent transparent; top:-2px;}
+			.finish-answer{margin-top: 0.5rem;}
+			.finish-answer p{padding: 0.5rem 0.3rem 0 0.5rem;background-color: #F9F9F9;margin: 0;line-height: 1.5rem !important;}
+			.finish-answer p:nth-child(2){padding-bottom: 0.5rem;}
+			.finish-answer p:nth-child(2) span,.discuss-list .userid{color: #0099ff !important;}
+			.finish-answer p span{text-align: left;float: left !important;color: #FF7300 !important;}
+			.finish-answer div{background-color: #FDFDFD;}

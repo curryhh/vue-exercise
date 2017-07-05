@@ -1,0 +1,56 @@
+			/*header*/
+			header{height: 3.7rem;}
+			.header-main{
+				padding:0.8rem;
+				width: 100%;
+				background-color:#ff7300;
+				height: 3.7rem;
+				color: #FFFFFF;
+			}
+			.header-main .go-back{
+				width:20%;
+				height: 1.5rem;
+				display: inline-block;
+				float: left;
+				background: url(../images/header-history.png) no-repeat left center;
+				background-size: contain;
+				margin-top: 0.3rem;
+			}
+			.header-main .title{height: 2.1rem;line-height: 2.1rem;width: 60%;text-align: center;font-size:1.167rem;display: inline-block;float: left;}
+			.header-main .tip{width: 20%;text-align: right;float: right;display: inline-block;height: 2.1rem;line-height: 2.1rem;font-size: 1rem;}
+			/*main*/
+			.order-mian-subnav{width: 100%;}
+			.order-mian-subnav ul{background-color: #FFFFFF;height: 2.7rem;padding: 0 0.3rem;}
+			.order-mian-subnav ul li{width: 20%;float: left;text-align: center;}
+			.order-mian-subnav ul li a{height: 2.7rem;line-height: 2.7rem;padding: 0 0.2rem;color:#333333;font-size: 1rem;display: block;}
+			.order-mian-subnav ul li.active a{border-bottom:3px solid #FF7300;}
+			.mian-list-content{padding-top: 0.8rem;}
+			.mian-list-content h2{padding: 1rem;background-color: #FFFFFF;font-size: 1rem;line-height: 1rem;color: #333333;}
+			.mian-list-content h2 a .shop-icon{background: url(../images/shop-icon.png) no-repeat  center center;background-size: contain;display: inline-block;width: 1rem;height: 1rem;float: left;margin-right: ;}
+			.mian-list-content h2 a em{float: left;padding: 0 0.8rem;font-style: normal;}
+			.mian-list-content h2 span{float: right;color: #FF7300;display: inline-block;}
+			.mian-list-content table{width: 100%;}
+			.mian-list-content table tr{padding: 0 1rem;border-top:1px #EDEDED solid;}
+			.mian-list-content table tr th,.mian-list-content table tr td{height: 3rem;background-color: #fffff6;line-height: 3rem;width: 21%;text-align: center;font-size: 0.8rem;color: #999999;}
+			.mian-list-content table tr td{background-color: #FAFAFA;color: #666666;}
+			.mian-list-content table tr:first-child{width: 37%;}
+			.mian-list-content table tr .offer{color: #FF7300;}
+			.mian-list-content .list-content-tip{border-top:1px #EDEDED solid;border-bottom:1px #EDEDED solid;height: 3rem;background-color: #FFFFFF;text-align: right;font-size: 0.8rem;line-height: 3rem;padding: 0 1rem;width: 100%;}
+			.mian-list-content .list-content-tip span{float: right;color: #FF7300;}
+			.mian-list-content .list-content-handle{border-bottom:1px #EDEDED solid;height: 3.2rem;background-color: #FFFFFF;padding: 0 1rem;}
+			.mian-list-content .list-content-handle a{float: left;line-height: 3.2rem;color: #666666;font-size: 1rem}
+			.mian-list-content .list-content-handle button{float: right;display: inline-block;line-height: 1.7rem;margin: 0.75rem 0;padding: 0 1.6rem;border-radius:5px;font-size: 1rem}
+			.mian-list-content .list-content-handle .finish-btn{background-color: #FFFFFF;border: 1px #EDEDED solid;margin-right: 1rem;}
+			.mian-list-content .list-content-handle .shut-btn{background-color: #FF7300;color: #FFFFFF;border: 1px #FF7300 solid;}
+			/* 滚动条加载 */
+	    	body{position: inherit;}
+			.iscroll-box{position:absolute;z-index:1;top:6.4rem;bottom:0px;/*left:0;*/width:100%;overflow:auto;}
+			.iscroll-box.z-index{ z-index:80; opacity:1;}
+			.iscroll-box .scroller{position:absolute; z-index:1;-webkit-tap-highlight-color:rgba(0,0,0,0);width:100%;padding:0;}
+			.iscroll-box div[data-pull]{ display:block;height:44px; line-height:44px; text-align:center;color:#666;}
+			.iscroll-box div[data-pull=up]:before{ content:"上拉加载更多数据";}
+			.iscroll-box div[data-pull=up].loading:before,.iscroll-box div[data-pull=up].flip:before{content:"正在拼命加载中...";}
+			.iscroll-box div[data-pull=up].end:before{ content:"已经加载所有数据";}
+			.iscroll-box div[data-pull=up].nodata:before{content:"暂无数据";}
+			.iscroll-box div[data-pull=down]:before{content:"下拉更新数据";}
+			.iscroll-box div[data-pull=down].loading:before,.iscroll-box div[data-pull=down].flip:before{content:"正在更新中...";}

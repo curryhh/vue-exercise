@@ -1,0 +1,135 @@
+[
+     {
+            "cgName": "镀锌电线套管",
+            "cgParam": 699,
+            "cgpath": ",0,178,674,699,706,",
+            "createDate": "2016-06-20",
+            "id": 706,
+            "modifyDate": "2016-10-18",
+            "orderby": 4,
+            "pname": "广东东莞"
+            
+      }, {
+            "cgCode": "gl_gs",
+            "cgLevel": "4",
+            "cgName": "PP双壁波纹管",
+            "cgParam": 570,
+            "cgpath": ",0,178,180,570,637,",
+            "createDate": "2016-06-20",
+            "id": 637,
+            "modifyDate": "2016-08-08",
+            "orderby": 1,
+            "pname": "四川成都"
+            
+      }, {
+            "adminId": 1,
+            "cgCode": "gl_ps",
+            "cgLevel": "4",
+            "cgName": "孔网钢带(PE)复合管",
+            "cgParam": 568,
+            "cgpath": ",0,178,179,568,665,",
+            "createDate": "2016-06-20",
+            "id": 665,
+            "modifyDate": "2016-06-28",
+            "orderby": 2,
+            "pname": "北京"
+            
+      }, {
+            "adminId": 1,
+            "cgCode": "gl_ps",
+            "cgLevel": "4",
+            "cgName": "钢骨架(PE)复合管",
+            "cgParam": 568,
+            "cgpath": ",0,178,179,568,663,",
+            "createDate": "2016-06-20",
+            "id": 663,
+            "modifyDate": "2016-06-28",
+            "orderby": 2,
+            "pname": "上海"
+            
+      }, {
+            "adminId": 1,
+            "cgCode": "gl_ps",
+            "cgLevel": "4",
+            "cgName": "钢丝网骨架(PE)复合管",
+            "cgParam": 568,
+            "cgpath": ",0,178,179,568,661,",
+            "createDate": "2016-06-20",
+            "id": 661,
+            "modifyDate": "2016-06-28",
+            "orderby": 2,
+            "pname": "广东深圳"
+            
+      },{
+            "cgCode": "gl_gs",
+            "cgLevel": "4",
+            "cgName": "PP双壁波纹管",
+            "cgParam": 570,
+            "cgpath": ",0,178,180,570,637,",
+            "createDate": "2016-06-20",
+            "id": 637,
+            "modifyDate": "2016-08-05",
+            "orderby": 1,
+            "pname": "重庆"
+            
+      }, {
+            "adminId": 1,
+            "cgCode": "gl_ps",
+            "cgLevel": "4",
+            "cgName": "孔网钢带(PE)复合管",
+            "cgParam": 568,
+            "cgpath": ",0,178,179,568,665,",
+            "createDate": "2016-06-20",
+            "id": 665,
+            "modifyDate": "2016-06-25",
+            "orderby": 2,
+            "pname": "其他"
+            
+      }, {
+            "adminId": 1,
+            "cgCode": "gl_ps",
+            "cgLevel": "4",
+            "cgName": "钢丝网骨架(PE)复合管",
+            "cgParam": 568,
+            "cgpath": ",0,178,179,568,661,",
+            "createDate": "2016-06-20",
+            "id": 661,
+            "modifyDate": "2016-06-26",
+            "orderby": 2,
+            "pname": "广东广州"
+            
+      }, {
+            "adminId": 1,
+            "cgName": "PVC红蓝线管",
+            "cgParam": 714,
+            "cgpath": ",0,178,674,714,716,",
+            "createDate": "2016-06-20",
+            "id": 716,
+            "modifyDate": "2016-06-27",
+            "orderby": 4,
+            "pname": ""
+            
+      }, {
+            "adminId": 1,
+            "cgName": "PPR家装管",
+            "cgParam": 714,
+            "cgpath": ",0,178,674,714,715,",
+            "createDate": "2016-06-12",
+            "id": 715,
+            "modifyDate": "2016-06-28",
+            "orderby": 4,
+            "pname": "广东东莞"
+            
+      }, {
+            "adminId": 1,
+            "cgName": "地暖管配件",
+            "cgParam": 709,
+            "cgpath": ",0,178,674,709,713,",
+            "createDate": "2016-05-29",
+            "id": 713,
+            "modifyDate": "2016-07-30",
+            "orderby": 4,
+            "pname": "广东东莞"
+            
+      }
+]
