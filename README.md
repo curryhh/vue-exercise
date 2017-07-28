@@ -1,6 +1,7 @@
 # gyg-vue
 
-> A Vue.js project
+vue-cli搭建的一个练手项目
+Vue+es6+vue-router+webpack
 
 ## Build Setup
 
